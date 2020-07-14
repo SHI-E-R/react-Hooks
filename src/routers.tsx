@@ -1,6 +1,7 @@
 import React from 'react'
 import UseState from './view/UseState/UseState'
 import UseReducer from './view/UseReducer/UseReducer'
+import UseContext from './view/UseContext/UseContext.js'
 
 interface Children {
   title: string
@@ -25,6 +26,11 @@ let routes: RouterType[] = [
     title: 'UseReducer',
     path: '/UseReducer',
     component: <UseReducer />
+  },
+  {
+    title: 'UseContext',
+    path: '/UseContext',
+    component: <UseContext />
   }
 ]
 
